@@ -1,140 +1,129 @@
-# PegRun
+#  PegRun
 
-An app created for the Winnipeg running community to locate run clubs in our city.
+**PegRun** is a community-driven app built for Winnipeg runners to discover and connect with local run clubs. Whether you're new to running or training for your next race, PegRun helps you find the perfect group, route, and event — all in one place.
 
-## 🎯 What is PegRun?
+---
 
-PegRun helps Winnipeg runners discover and connect with local run clubs throughout the city. With limited existing resources for run club discovery, this app serves as the go-to solution for runners looking to find their perfect running group.
+## 🎯 What Is PegRun?
 
-Finding run clubs in Winnipeg can be challenging - information is scattered across various websites and social media. PegRun centralizes everything in one place, making it easy to discover clubs that match your skill level, schedule, and location.
+Finding run clubs in Winnipeg can be frustrating — information is scattered across websites, social media, and word of mouth. PegRun centralizes everything, making it easy to:
+
+- Discover clubs by location, distance, and skill level  
+- Check weather conditions before heading out  
+- Explore curated running routes and meetups  
+- Stay informed about upcoming races and events  
+
+---
 
 ## ✨ Features
 
-### 🌤️ **Weather & Forecast**
-- Check current weather conditions before your run
-- Extended forecast to help plan upcoming runs
-- Weather-aware run planning recommendations
+### 🌤️ Weather & Forecast
+- Live weather updates for Winnipeg
+- Extended forecasts to plan your week
+- Weather-aware run recommendations
 
-### 👥 **Run Clubs Directory**
-- Comprehensive database of Winnipeg run clubs
-- Find clubs in your neighborhood or across the city
-- Detailed information including meeting times, locations, and skill levels
+### 👥 Run Clubs Directory
+- Browse verified Winnipeg run clubs
+- Filter by location, distance, or skill level
+- View meeting times, locations, and organizer info
 
-### 📍 **Meet Ups & Group Runs**
-- Discover organized group runs and meetups
-- Event details and registration information
-- Community-driven running events
+### 📍 Meetups & Group Runs
+- Discover organized runs across the city
+- RSVP to events and view details
+- Community-driven listings
 
-### 🗺️ **Route Generator**
-- Create custom running routes in Winnipeg
-- Popular running paths and trails
-- Distance and elevation information
+### 🗺️ Route Generator
+- Create custom running routes
+- Explore popular paths and trails
+- View distance and elevation data
 
-### 📅 **Events Calendar** *(Coming Soon)*
-- Local running events and races
-- Race information including dates, distances, and registration
-- Community meetups and group runs
+### 📅 Events Calendar *(Coming Soon)*
+- Local races and running events
+- Registration links and race details
+- Community meetups and club-hosted runs
 
-### 📊 **Personal Stats** *(Coming Soon)*
-- Import your running data from Strava
-- View your fastest times for different distances
-- Track your progress and achievements
+### 📊 Personal Stats *(Coming Soon)*
+- Import data from Strava
+- Track your fastest times and progress
+- Celebrate milestones and achievements
 
-## 🏙️ Why Winnipeg Needs This
+---
 
-### **Current Challenges**
-- **Limited Resources**: No centralized platform for discovering run clubs
-- **Scattered Information**: Club details spread across various websites and social media
-- **Community Isolation**: Runners struggle to find groups that match their skill level and schedule
-- **Geographic Barriers**: Difficulty finding clubs in specific neighborhoods or areas
+## 🏙️ Why Winnipeg Needs PegRun
 
-### **Our Solution**
-- **Centralized Platform**: One app for all Winnipeg running community needs
-- **Comprehensive Database**: Complete information about local run clubs
-- **Easy Discovery**: Simple search and filter tools to find the perfect club
-- **Community Building**: Fosters connections between runners of all levels
+### Challenges
+- ❌ No centralized platform for run clubs  
+- ❌ Scattered info across social media  
+- ❌ Hard to find clubs by neighborhood or skill level  
+- ❌ Limited visibility for organizers  
 
-## 🎯 Who is PegRun For?
+### Our Solution
+- ✅ One app for all things running in Winnipeg  
+- ✅ Easy discovery and filtering tools  
+- ✅ Community-building features  
+- ✅ Support for runners and organizers alike  
 
-### **New Runners**
-- Find beginner-friendly clubs
-- Learn about running in a supportive environment
-- Build confidence through group participation
+---
 
-### **Experienced Runners**
-- Discover advanced training groups
-- Connect with runners of similar ability
-- Share knowledge and experience
+## 👟 Who Is PegRun For?
 
-### **Running Enthusiasts**
-- Stay updated on local events
-- Find training partners
-- Participate in community activities
+| Group                | Benefits |
+|---------------------|----------|
+| **New Runners**      | Find beginner-friendly clubs, build confidence |
+| **Experienced Runners** | Connect with advanced groups, share training tips |
+| **Running Enthusiasts** | Stay updated on events, find partners |
+| **Run Club Organizers** | Increase visibility, manage events, grow your club |
 
-### **Run Club Organizers**
-- Increase visibility and membership
-- Share information about events and meetups
-- Connect with the broader running community
+---
 
-## 📱 Get Started
+## 📱 How to Install PegRun
 
-### **For Runners**
-1. Download the app from the Google Play Store *(Coming Soon)*
-2. Browse run clubs in your area
-3. Check weather conditions for your runs
-4. Discover local events and meetups
-5. Generate custom running routes
+### 🔧 Installation (APK)
+1. [Download the latest APK from GitHub Releases](https://github.com/PlagueFitnessCanada/PegRun/releases)
+2. On your Android device, enable **Install from Unknown Sources**
+3. Open the APK file and follow the installation prompts
+4. Launch PegRun and start exploring!
 
-### **For Run Club Organizers**
-1. Contact us to add your club to the directory
-2. Update meeting times and locations
-3. Share upcoming events and meetups
-4. Connect with the broader community
+> 📦 *Google Play Store version coming soon*
 
-## 🌟 Impact on Winnipeg Running Community
+---
 
-PegRun aims to:
+## 📝 Run Club Submissions
 
-- **Increase Participation**: Make it easier for runners to find and join clubs
-- **Build Community**: Foster connections between runners across the city
-- **Improve Accessibility**: Provide information about clubs for all skill levels
-- **Support Growth**: Help new runners discover the joy of group running
-- **Create Unity**: Bring together Winnipeg's diverse running community
+Want your club featured in PegRun? Submit your details here:  
+👉 [Run Club Submission Form](https://github.com/PlagueFitnessCanada/PegRun/issues/new?assignees=&labels=run-club%2Csubmission&template=run_club_submission.yml)
 
-## 🚧 Development Status
+---
 
-### ✅ **Available Now**
-- Home dashboard and navigation
-- Weather and forecast functionality
-- Run clubs directory with detailed information
-- Meet ups and group runs
-- Route generator with mapping
-- User-friendly interface and navigation
+## 🧰 Contributing
 
-### 🔄 **Coming Soon**
-- Events calendar and race information
-- Personal stats and Strava integration
-- Enhanced community features
+We welcome community contributions! You can help by:
 
-## 🤝 Contributing
+- 🐞 Reporting bugs via [GitHub Issues](https://github.com/PlagueFitnessCanada/PegRun/issues)
+- 💡 Suggesting new features or improvements
+- 📍 Updating run club info
+- 🧪 Testing new releases
 
-Want to help improve PegRun? We welcome contributions and feedback:
+To get started, check out our **Contribution Guidelines** *(coming soon)*
 
-- **Bug Reports**: Help us identify and fix issues
-- **Feature Requests**: Suggest new functionality
-- **Content Updates**: Help keep club information current
-- **Testing**: Provide feedback on new features
+---
 
 ## 📞 Support & Contact
 
-For questions, feedback, or to add your run club to the directory:
+For questions, feedback, or to add your run club manually:
 
-- **GitHub**: [N/A]
-- **Email**: [PegRunApp@gmail.com]
-- **Community Forum**: [N/A]
+- 📬 Email: [PegRunApp@gmail.com](mailto:PegRunApp@gmail.com)  
+- 🛠️ GitHub Issues: [Support & Feedback](https://github.com/PlagueFitnessCanada/PegRun/issues)
+
+---
+
+## 🚧 Development Status
+
+| Status        | Features |
+|---------------|----------|
+| ✅ Available Now | Home dashboard, weather, club directory, route generator |
+| 🔄 Coming Soon | Events calendar, Strava integration, personal stats |
 
 ---
 
 *Built with ❤️ for the Winnipeg running community*
-
-*For developers and contributors, see our [Technical Documentation](GITHUB_README.md)*
