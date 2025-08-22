@@ -79,7 +79,7 @@ Finding run clubs in Winnipeg can be frustrating — information is scattered ac
 ## 📱 How to Install PegRun
 
 ### 🔧 Installation (APK)
-1. [![Download the latest APK from GitHub Releases](https://img.shields.io/badge/Download-APK-blue?logo=github)](https://github.com/PlagueFitnessCanada/PegRun/releases/latest)
+1. [Download the latest APK from GitHub Releases](https://github.com/PlagueFitnessCanada/PegRun/releases/latest)
 2. On your Android device, enable **Install from Unknown Sources**
 3. Open the APK file and follow the installation prompts
 4. Launch PegRun and start exploring!
