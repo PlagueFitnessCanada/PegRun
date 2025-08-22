@@ -14,13 +14,12 @@ body:
       description: What’s the official name of your run club?
       placeholder: e.g. Prairie Striders
 
-   - type: textarea
+  - type: textarea
     id: routes_offered
     attributes:
       label: Routes Offered
       description: What distances or routes does your club offer? Feel free to describe each one.
       placeholder: e.g. 3km loop around the park, 5km river trail, 8km downtown circuit
-
 
   - type: textarea
     id: meetup_location
