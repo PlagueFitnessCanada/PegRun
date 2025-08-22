@@ -10,3 +10,10 @@ body:
         You can include version info, changelog, and a download link.
 
         👉 [Download the latest APK from GitHub Releases](https://github.com/PlagueFitnessCanada/PegRun/releases/latest)
+
+  - type: textarea
+    id: release-notes
+    attributes:
+      label: Release Notes
+      description: Add details about the new release here.
+      placeholder: Version number, changelog, fixes, etc.
