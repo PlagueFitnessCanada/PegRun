@@ -1,0 +1,45 @@
+name: Run Club Submission
+description: Submit your run club details to be featured or listed
+title: "[Run Club] "
+labels: [run-club, submission]
+body:
+  - type: markdown
+    attributes:
+      value: "## 🏃‍♀️ Run Club Submission Form\nPlease fill out the details below to submit your run club."
+
+  - type: input
+    id: club_name
+    attributes:
+      label: Name of Run Club
+      description: What’s the official name of your run club?
+      placeholder: e.g. Prairie Striders
+
+  - type: checkboxes
+    id: routes_offered
+    attributes:
+      label: Routes Offered
+      description: Select all distances your club regularly runs
+      options:
+        - label: 3km
+        - label: 5km
+        - label: 8km
+
+  - type: textarea
+    id: meetup_location
+    attributes:
+      label: Meet-Up Location
+      description: Where do runners meet before the run?
+      placeholder: e.g. Assiniboine Park Duck Pond
+
+  - type: textarea
+    id: meetup_schedule
+    attributes:
+      label: Meet-Up Schedule
+      description: Include specific times and days. Please detail any seasonal changes (e.g. winter vs summer).
+      placeholder: e.g. Tuesdays & Thursdays at 6:30 PM (Summer), Saturdays at 10:00 AM (Winter)
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Additional Info (Optional)
+      description: Anything else you'd like us to know? Social media links, registration process, etc.
