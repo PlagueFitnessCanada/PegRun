@@ -1,0 +1,12 @@
+name: 📢 PegRun Release Announcement
+description: Create a freeform issue to announce new APK releases.
+title: "[Release] "
+labels: [announcement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this issue to announce a new PegRun APK release.  
+        You can include version info, changelog, and a download link.
+
+        👉 [Download the latest APK from GitHub Releases](https://github.com/PlagueFitnessCanada/PegRun/releases/latest)
