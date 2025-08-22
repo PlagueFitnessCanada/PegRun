@@ -25,3 +25,4 @@ body:
     attributes:
       label: Device info
       description: OS version, phone model, app version, etc.
+
