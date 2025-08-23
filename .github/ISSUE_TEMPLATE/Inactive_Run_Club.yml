@@ -1,6 +1,6 @@
 name: 💤 Report Inactive Run Club Repository
-description: Use this form to report a run club repository that appears inactive or abandoned.
-title: "[Inactive Run Club] <repository-name>"
+description: Help us identify run club repositories that are no longer active.
+title: "[Inactive Run Club] <club-name-or-repo-name>"
 labels: [inactive, run-club, needs-review]
 assignees: []
 
@@ -8,32 +8,14 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 📝 Inactive Run Club Report
-        Please fill out the details below to help us assess the status of this repository.
-
-  - type: input
-    id: repo_url
-    attributes:
-      label: 🔗 Repository URL
-      description: Paste the full GitHub URL of the run club repository.
-      placeholder: https://github.com/org-name/repo-name
-    validations:
-      required: true
+        ## 🏃‍♂️ Inactive Run Club Report
+        If you've noticed a run club repository that seems abandoned or inactive, please fill out this form so we can review it. This helps keep the running community organized and up-to-date.
 
   - type: input
     id: last_commit
     attributes:
-      label: 📅 Last Commit Date
-      description: When was the last commit made?
-      placeholder: YYYY-MM-DD
-    validations:
-      required: true
-
-  - type: input
-    id: last_activity
-    attributes:
-      label: 🛠️ Last Issue or PR Activity
-      description: When was the last issue or pull request activity?
+      label: 📅 Last Joined Date
+      description: When was the last time you attempted to join the run club?
       placeholder: YYYY-MM-DD
     validations:
       required: true
@@ -41,6 +23,19 @@ body:
   - type: textarea
     id: contact_attempts
     attributes:
-      label: 📬 Maintainer Contact Attempts
-      description: Describe any attempts to contact the maintainers and their response (if any).
-      placeholder: e.g. Sent an email on Jan 1, no reply
+      label: 📬 Attempts to Contact Club
+      description: Have you tried reaching out to the Club? If so, what happened?
+      placeholder: e.g. Sent a message via GitHub Discussions, no reply. Tagged maintainer in issue, no response.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: reasons
+    attributes:
+      label: 🚨 Why Are You Reporting This Run Club?
+      description: Select all that apply.
+      options:
+        - label: Club wont respond to my inquiries
+        - label: Club appears inactive or disbanded
+        - label: Other (please explain below)
+
