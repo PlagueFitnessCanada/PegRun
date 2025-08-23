@@ -11,6 +11,15 @@ body:
         ## 🏃‍♂️ Inactive Run Club Report
         If you've noticed a run club repository that seems abandoned or inactive, please fill out this form so we can review it. This helps keep the running community organized and up-to-date.
 
+  - type: textarea
+    id: club_name
+    attributes:
+      label: 📬 Run Club Name
+      description: What is the Run Club you are reporting?
+      placeholder: e.g. Winnipeg Run Club
+    validations:
+      required: false
+  
   - type: input
     id: last_commit
     attributes:
