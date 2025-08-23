@@ -43,12 +43,4 @@ body:
     attributes:
       label: 📬 Maintainer Contact Attempts
       description: Describe any attempts to contact the maintainers and their response (if any).
-      placeholder: e.g. Sent an email on Jan 1, no reply. Commented on open issue, no response.
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: reasons
-    attributes:
-      label: 🚨 Reason for Reporting
-      description: Select
+      placeholder: e.g. Sent an email on Jan 1, no reply
