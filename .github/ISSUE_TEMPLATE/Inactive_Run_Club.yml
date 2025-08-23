@@ -1,0 +1,26 @@
+inactive_run_club_report:
+  repository:
+    name: "INSERT_REPO_NAME"
+    url: "https://github.com/INSERT_ORG_OR_USER/INSERT_REPO_NAME"
+    owner: "INSERT_ORG_OR_USER"
+  inactivity_summary:
+    last_commit_date: "YYYY-MM-DD"
+    last_issue_or_pr_activity: "YYYY-MM-DD"
+    maintainer_contact_attempts: "Describe any outreach attempts and responses"
+  reason_for_reporting:
+    no_recent_commits: true
+    unanswered_issues_or_prs: true
+    unresponsive_maintainers: true
+    project_abandoned: true
+    other_reason: "Optional additional context"
+  impact_of_inactivity: >
+    Describe how the inactivity affects contributors, users, or the run club community.
+  suggested_action:
+    archive_repository: true
+    transfer_ownership: false
+    add_new_maintainers: true
+    mark_as_deprecated: false
+    other_suggestion: "Optional suggestion"
+  contact_info:
+    github_username: "your-github-handle"
+    email: "optional@example.com"
