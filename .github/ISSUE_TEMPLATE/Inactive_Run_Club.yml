@@ -1,26 +1,54 @@
-inactive_run_club_report:
-  repository:
-    name: "INSERT_REPO_NAME"
-    url: "https://github.com/INSERT_ORG_OR_USER/INSERT_REPO_NAME"
-    owner: "INSERT_ORG_OR_USER"
-  inactivity_summary:
-    last_commit_date: "YYYY-MM-DD"
-    last_issue_or_pr_activity: "YYYY-MM-DD"
-    maintainer_contact_attempts: "Describe any outreach attempts and responses"
-  reason_for_reporting:
-    no_recent_commits: true
-    unanswered_issues_or_prs: true
-    unresponsive_maintainers: true
-    project_abandoned: true
-    other_reason: "Optional additional context"
-  impact_of_inactivity: >
-    Describe how the inactivity affects contributors, users, or the run club community.
-  suggested_action:
-    archive_repository: true
-    transfer_ownership: false
-    add_new_maintainers: true
-    mark_as_deprecated: false
-    other_suggestion: "Optional suggestion"
-  contact_info:
-    github_username: "your-github-handle"
-    email: "optional@example.com"
+name: 💤 Report Inactive Run Club Repository
+description: Use this form to report a run club repository that appears inactive or abandoned.
+title: "[Inactive Run Club] <repository-name>"
+labels: [inactive, run-club, needs-review]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📝 Inactive Run Club Report
+        Please fill out the details below to help us assess the status of this repository.
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: 🔗 Repository URL
+      description: Paste the full GitHub URL of the run club repository.
+      placeholder: https://github.com/org-name/repo-name
+    validations:
+      required: true
+
+  - type: input
+    id: last_commit
+    attributes:
+      label: 📅 Last Commit Date
+      description: When was the last commit made?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: last_activity
+    attributes:
+      label: 🛠️ Last Issue or PR Activity
+      description: When was the last issue or pull request activity?
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: textarea
+    id: contact_attempts
+    attributes:
+      label: 📬 Maintainer Contact Attempts
+      description: Describe any attempts to contact the maintainers and their response (if any).
+      placeholder: e.g. Sent an email on Jan 1, no reply. Commented on open issue, no response.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: reasons
+    attributes:
+      label: 🚨 Reason for Reporting
+      description: Select
