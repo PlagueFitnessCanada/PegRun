@@ -98,11 +98,13 @@ Want your club featured in PegRun? Submit your details here:
 ## 🧰 Contributing
 
 We welcome community contributions! You can help by:
+[GitHub Issues](https://github.com/PlagueFitnessCanada/PegRun/issues)
 
-- 🐞 Reporting bugs via [GitHub Issues](https://github.com/PlagueFitnessCanada/PegRun/issues)
+- 🐞 Reporting bugs
 - 💡 Suggesting new features or improvements
 - 📍 Updating run club info
 - 🧪 Testing new releases
+- 💤 Reporting inactive run clubs
 
 To get started, check out our **Contribution Guidelines** *(coming soon)*
 
