@@ -37,15 +37,14 @@ Finding run clubs in Winnipeg can be frustrating — information is scattered ac
 - Explore popular paths and trails
 - View distance and elevation data
 
+### 📊 Personal Stats
+Track your fastest times and progress
+Celebrate milestones and achievements
+
 ### 📅 Events Calendar *(Coming Soon)*
 - Local races and running events
 - Registration links and race details
 - Community meetups and club-hosted runs
-
-### 📊 Personal Stats *(Coming Soon)*
-- Import data from Strava
-- Track your fastest times and progress
-- Celebrate milestones and achievements
 
 ---
 
